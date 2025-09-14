@@ -1,0 +1,44 @@
+body{
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    display: flex;
+    font-size: medium;
+    height: 100vh;
+    font-family: arial;
+
+}
+
+
+
+.login-container {
+  background-color: white;
+  padding: 20px;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+
+.login-btn{
+
+    width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  color: black;
+  border: solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px
+
+}
+
+h2{
+ text-align:center;
+
+}
+ 
+p{
+text-align: center;
+
+
+}

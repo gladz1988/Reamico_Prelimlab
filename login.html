@@ -1,51 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>User Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet"  href="style.css">
 </head>
 <body>
-  <h2>Login</h2>
-  
-  <!-- Login Form -->
-  <label for="email">Email</label>
-  <input type="email" id="email" required />
-  <br><br>
+  <form>
+  <div class="login-container">
+    <h2> Login</h2>
+    <label for="email"> Email:</label><br><br>
+    <input type="email"  id="email"  name="email"  required><br><br>
 
-  <label for="password">Password</label>
-  <input type="password" id="password" required />
-  <br><br>
+    <label for="password">Password:</label><br><br>
+    <input type="password"  id="password" name="password" required><br><br>
 
-  <button onclick="handleLogin()">Login</button>
-  <br><br>
+    <button type="submit"   class="login-btn">Login</button>
 
-  <!-- Sign Up Section -->
-  <p>Don't have an account?</p>
-  <button onclick="handleSignUp()">Sign Up</button>
+    <p> Don't have an account? <br>Signup</p>
 
-  <script>
-    function handleLogin() {
-      const email = document.getElementById('email').value;
-      const password = document.getElementById('password').value;
+  </div>
+    
+</form>
 
-      if (!email || !password) {
-        alert("Please enter both email and password.");
-        return;
-      }
-
-      // Simulate login
-      console.log("Logging in with:", email, password);
-      alert("Login successful (simulated)");
-    }
-
-    function handleSignUp() {
-      // Redirect or simulate sign-up
-      console.log("Redirecting to sign up page...");
-      alert("Redirecting to Sign Up (simulated)");
-      // Example: redirect to signup.html
-      // window.location.href = "signup.html";
-    }
-  </script>
+ 
 </body>
 </html>
