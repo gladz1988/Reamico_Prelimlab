@@ -42,3 +42,57 @@ text-align: center;
 
 
 }
+.Dashboard{
+  background-color: rgb(242, 240, 238);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 200px;
+  font-family: Arial;
+  height: 40vh;
+
+}
+
+.Dashboard h3{
+   text-align: center;
+}
+
+.Dashboard li{
+  padding: 2px;
+
+}
+
+
+
+.signupform {
+  background-color: rgb(240, 248, 255);
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: medium;
+  width: 250px;
+}
+
+.signupform label {
+  display: block;      
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.signupform input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #0b0b0b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+h3{
+  text-align: center;
+
+}
